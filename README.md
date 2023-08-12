@@ -1,8 +1,14 @@
-# React + Vite
+# Portfolio App #1 (Basic - Begginers)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+API's
 
-Currently, two official plugins are available:
+[x] weatherapi
+[x] geo-db
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Libraries
+
+[x] axios
+[x] styled-components
+[x] react-icons
+[x] react-redux / redux toolkit
+[x] sonner
