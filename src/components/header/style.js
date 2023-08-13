@@ -11,6 +11,12 @@ const HeaderContainer = styled.header`
     justify-content: end;
   }
 
+  h6 {
+    display: flex;
+    justify-content: end;
+    color: white;
+  }
+
   p {
     padding-left: 3.5rem;
 

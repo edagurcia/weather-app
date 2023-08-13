@@ -8,6 +8,7 @@ export const Header = () => {
   return (
     <HeaderContainer>
       <h3>Weather App</h3>
+      <h6>By Edmundo Domínguez Agurcia</h6>
       <LocationContainer>
         <MdLocationPin />
         <h1>{myLocation?.name}</h1>

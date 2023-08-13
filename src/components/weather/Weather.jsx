@@ -20,6 +20,7 @@ export const Weather = () => {
     <WeatcherContainer>
       <InfoContainer>
         <InfoLocationContainer>
+          <h6>Updated: {shortDate(currentWeather?.current?.last_updated)}</h6>
           <h3>{searchedLocation?.name}</h3>
           <p>{searchedLocation?.region}</p>
           <p>
@@ -39,7 +40,6 @@ export const Weather = () => {
           <div>
             <h2>{currentWeather?.current?.temp_c} ℃</h2>
             <h2>{currentWeather?.current?.temp_f} ℉</h2>
-            <h6>Updated: {shortDate(currentWeather?.current?.last_updated)}</h6>
           </div>
         </InfoActualWeatherContainer>
       </InfoContainer>

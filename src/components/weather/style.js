@@ -20,6 +20,11 @@ const InfoLocationContainer = styled.div`
     font-weight: 700;
   }
 
+  h6 {
+    font-size: 10px;
+    color: #f8f9fa;
+  }
+
   p {
     span {
       font-size: 20px;
@@ -59,12 +64,6 @@ const InfoActualWeatherContainer = styled.div`
       display: flex;
       justify-content: end;
     }
-
-    h6 {
-      font-size: 10px;
-      color: #f8f9fa;
-      margin-top: 5px;
-    }
   }
 
   @media ${device.xs} {
@@ -77,9 +76,12 @@ const InfoActualWeatherContainer = styled.div`
 `;
 
 const ForecastContainer = styled.div`
-  padding: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 `;
 
 export {
